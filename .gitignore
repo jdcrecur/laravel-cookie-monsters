@@ -1,0 +1,39 @@
+# git specific files to ignore
+!.gitkeep
+
+# ignore the ide files
+.idea
+
+# laravel .env files
+.env
+.env.old
+
+# ignore the generate files
+/public/build
+/public/images/markettool_offers/
+/public/images/profile-pictures/
+/public/images/cars-by-vin/
+
+# ignore the dependecies files
+/resources/assets/bower_components
+/api-docs/source/node_modules
+/vendor
+/node_modules
+composer.lock
+
+# ignore the storage folder
+/storage/app
+/storage/framework
+/storage/logs
+
+# ignore the symlinks as the windows build break them all.
+storage/shared_drive_01
+public/images/shared_drive_01_public_images
+
+#ignore the test generated files
+/e2e_test_rig/bin/
+/e2e_test_rig/node_modules/
+/e2e_test_rig/log/
+/e2e_test_rig/reports/
+/e2e_test_rig/screenshots/
+/e2e_test_rig/selenium-debug.log
